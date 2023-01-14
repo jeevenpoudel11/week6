@@ -1,0 +1,141 @@
+*{
+    padding:0;
+    margin:0;
+
+    
+}
+
+
+html{
+    font-size: 62.5%;
+}
+
+.container{
+   
+    margin: auto;
+    display: flex;
+    flex-direction: row-reverse;
+    padding: auto;
+}
+
+
+.Beer{
+    width: 100%;
+    object-position: center;
+    object-fit: cover;
+
+ }
+
+.description-section{
+    color:white;
+}
+
+.descriptions{
+    padding:3rem;
+}
+
+.headings{
+    margin-top:4rem;
+}
+
+.headings h1{
+    font-family: 'Kanit', sans-serif;
+    font-weight: 600;
+    font-size:5rem;
+}
+
+.headings h2{
+    font-family: 'Cormorant', serif;
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.paragraph{
+  margin:1rem;
+    font-family: 'Martel', serif; 
+    margin-top:14rem;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height:3rem;
+}
+
+button{
+    font-family: 'Cormorant', serif;
+    font-weight: bold;
+    color:rgb(0, 0, 0);
+    border:none;
+    margin-top: 1rem;
+    font-size:2rem;
+    width:50%;
+    padding:1rem;
+    border-radius:1.5rem;
+    cursor: pointer;
+}
+
+button:hover{
+    color:black;
+}
+@media only screen and (max-width: 1025px) and (min-width:1200px) {
+html{
+    font-size: 50%;
+}
+}
+
+@media only screen and (max-width: 1024px) and (min-width:769px) {
+ html{
+    font-size: 50%;
+ }
+
+
+    button{
+        width:80%;
+    }
+}
+
+@media only screen and (min-width:622px) and (max-width: 768px) {
+
+ html{
+        font-size: 45%;
+    }
+
+
+    
+    button{
+        width:70%;
+    }
+
+  }
+
+  @media only screen and (min-width:320px) and (max-width: 622px){
+
+   
+    html{
+        font-size: 45%;
+    }
+
+    .descriptions{
+        width:90%;
+        margin: auto;
+    }
+    
+    .Beer{
+        height:45vh;
+     }
+
+    .container{
+    flex-direction: column-reverse;
+    }
+  }
+  .black{
+    color: black;
+  }
+  .red{
+    color: red;
+  }
+  .span{
+    font-size:25px;
+    font-style: bold;
+  }
+.center{
+    text-align: center;
+}
